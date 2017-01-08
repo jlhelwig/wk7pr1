@@ -7,9 +7,9 @@ H1 {
 
 }
 
-img{
-	
-	left: 50px;
+#q4{
+  position: relative;
+	left: 150px;
 }
 
 #topText {
@@ -26,7 +26,20 @@ p {
 body {
   background-color: black;
 }
-
+.seeIt {
+	position:absolute;
+	top: 650px;
+	left: 500px;
+	color: white;
+	font-size: 30px
+}
+.seeItTitle {
+	position:absolute;
+	top: 600px;
+	left: 500px;
+	color: white;
+	font-size: 30px
+}
 #marquee {
   display: block;
   margin: auto;

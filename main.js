@@ -20,48 +20,21 @@ $(document).ready(function() {
         console.log(data.Poster);
         // var poster = "";
         poster = data.Poster;
+        title = data.Title;
+        plot = data.Plot;
         console.log(poster);
         document.getElementById("q4").innerHTML = "<img src=" +poster+ " />" ;
-        // console.log(poster)
+        console.log(data.Title);
+        document.getElementById("q5").innerHTML = title;
+        console.log(data.Plot);
+        document.getElementById("q6").innerHTML = plot
+  });
+
+
     });
-
-//
-
-//     $xhr.fail(function(err) {
-//         console.log(err);
-//     });
-//
-//     var $xhr = $.getJSON('http://www.omdbapi.com/?t=the+martian');
-//
-//     $xhr.done(function(data) {
-//         if ($xhr.status !== 200) {
-//             return;
-//         }
-//
-//         console.log(data);
-//     });
-//
-//     $xhr.fail(function(err) {
-//         console.log(err);
-//     });
-//
-//     var $xhr = $.getJSON('http://www.omdbapi.com/?t=fantastic+beasts');
-//
-//     $xhr.done(function(data) {
-//         if ($xhr.status !== 200) {
-//             return;
-//         }
-//
-//         console.log(data);
-//     });
-//
-//     $xhr.fail(function(err) {
-//         console.log(err);
-//     });
 //
 //
 //
 //
 //
 //
-});
